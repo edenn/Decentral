@@ -13,6 +13,6 @@ module.exports = function(grunt) {
         }
 
     });
-    grunt.loadNpmTasks('grunt-contrib-concat'); // which NPM packages to load
+    grunt.loadNpmTasks('grunt-contrib-concat'); // which NPM packages to load   
     grunt.registerTask('default', ['concat']); // which packages to run
 };
